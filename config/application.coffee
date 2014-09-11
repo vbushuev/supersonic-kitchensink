@@ -4,7 +4,7 @@
 steroids.config.name = "supersonic kitchensink"
 
 # ## Start Location
-steroids.config.location = "http://localhost/app/common/getting-started.html"
+steroids.config.location = "http://localhost/app/common/examples.html"
 
 # ## Tab Bar
 # steroids.config.tabBar.enabled = true
