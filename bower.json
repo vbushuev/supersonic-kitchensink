@@ -5,6 +5,7 @@
   "dependencies": {
     "steroids-js": "3.x",
     "angular": "1.2.16",
+    "angular-touch": "1.2.16",
     "supersonic": "https://supersonic-backdoor:103944e9fd881b4de88536ab5529a30c387a93bd@github.com/AppGyver/supersonic.git#master"
   }
 }
