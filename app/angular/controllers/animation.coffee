@@ -1,8 +1,6 @@
-angularApp = angular.module 'angularApp', ['ngTouch']
+animationApp = angular.module 'animationApp', ['ngTouch']
 
-angularApp.controller 'AnimationCtrl', ($scope)->
-
-  alert('OKKK')
+animationApp.controller 'AnimationCtrl', ($scope)->
 
   steroids.view.navigationBar.show "Animation"
 
