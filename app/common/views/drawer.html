@@ -1,0 +1,27 @@
+<script>
+
+var openDrawer = function() {
+
+  var drawer = document.getElementsByTagName('ss-drawer')[0];
+  drawer && drawer.setAttribute("style", "display: block;");
+
+}
+
+</script>
+
+<ss-navigation-bar>
+  <ss-navigation-bar-title>
+    Drawer
+  </ss-navigation-bar-title>
+</ss-navigation-bar>
+
+<div class="padding">
+
+  <p>Tap a button to open a drawer</p>
+
+  <ss-drawer location="/app/common/sidebar.html" side="left"></ss-drawer>
+
+  <button class="button" onclick="openDrawer()">Open left drawer</button>
+
+
+</div>
