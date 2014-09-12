@@ -1,0 +1,43 @@
+<script>
+  var showNav = function() {
+    document.querySelector('ss-navigation-bar').setAttribute("style", "display: block;");
+  }
+
+  var hideNav = function() {
+    document.querySelector('ss-navigation-bar').setAttribute("style", "display: none;");
+  }
+
+  var setNavBarTitle = function() {
+    var title = document.getElementById('navBarTitle').value;
+    document.querySelector('ss-navigation-bar-title').innerHTML = title;
+  }
+
+  var removeNavBarTitle = function() {
+    document.querySelector('ss-navigation-bar-title').innerHTML = '';
+  }
+
+</script>
+
+<ss-navigation-bar>
+  <ss-navigation-bar-title>
+    Navigation Bar
+  </ss-navigation-bar-title>
+</ss-navigation-bar>
+
+<div class="padding">
+
+  <h3 class="title">Switch Navigation Bar on and off</h3>
+
+  <button class="button button-positive" ontouchend="showNav()">SHOW NAV BAR</button>
+  <button class="button button-assertive" ontouchend="hideNav()">HIDE NAV BAR</button>
+
+  <h3 class="title">Change Navigation Bar title</h3>
+
+  <p>
+    <input class="text" id="navBarTitle" />
+  </p>
+
+  <button class="button button-positive" ontouchend="setNavBarTitle()">SET TITLE</button>
+  <button class="button button-assertive" ontouchend="removeNavBarTitle()">REMOVE TITLE</button>
+
+</div>
