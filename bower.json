@@ -9,6 +9,6 @@
     "angular-touch": "1.2.16",
     "moment": "~2.8.2",
     "lodash": "~2.4.1",
-    "supersonic": "https://supersonic-backdoor:103944e9fd881b4de88536ab5529a30c387a93bd@github.com/AppGyver/supersonic.git#master"
+    "supersonic": "https://supersonic-backdoor:103944e9fd881b4de88536ab5529a30c387a93bd@github.com/AppGyver/supersonic-bower.git#master"
   }
 }

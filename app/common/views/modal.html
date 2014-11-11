@@ -1,9 +1,17 @@
+<script>
+  var hidemodal = function() {
+    var options = {
+      animate: true
+    }
+
+    supersonic.ui.modal.hide(options);
+  };
+</script>
+
 <div class="padding">
 
   <p>Welcome to Modal view</p>
 
-  <ss-magic action="click" modal="hide">
-    <button class="button">HIDE MODAL</button>
-  </ss-magic>
+  <button class="button" onclick="hidemodal()">HIDE MODAL</button>
 
 </div>

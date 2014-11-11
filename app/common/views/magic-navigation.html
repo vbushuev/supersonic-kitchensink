@@ -1,22 +1,40 @@
-<ss-navigation-bar>
-  <ss-navigation-bar-title>
+<script>
+  var openmodal = function() {
+
+    var modalView = supersonic.ui.view("/app/common/modal.html");
+    var options = {
+      animate: true
+    }
+
+    supersonic.ui.modal.show(modalView, options);
+  };
+</script>
+
+<style type="text/css">
+input {
+  border: none;
+}
+</style>
+
+<super-navbar>
+  <super-navbar-title>
     Magic Navigation
-  </ss-navigation-bar-title>
-</ss-navigation-bar>
+  </super-navbar-title>
+</super-navbar>
 
 <div class="padding">
 
   <ul class="list">
-      <ss-magic action="click" navigate="/app/common/buttons.html">
-        <li class="item">
-          Open layer
-        </li>
-      </ss-magic>
-      <ss-magic action="click" modal="/app/common/modal.html">
-        <li class="item">
-          Open modal
-        </li>
-      </ss-magic>
+    <super-navigate location="/app/common/buttons.html">
+      <li class="item">
+        Open layer
+      </li>
+    </super-navigate>
+
+    <li class="item" onclick="openmodal()">
+      Open modal
+    </li>
+
   </ul>
 
 </div>

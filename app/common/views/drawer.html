@@ -1,27 +1,25 @@
 <script>
 
 var openDrawer = function() {
-
-  var drawer = document.getElementsByTagName('ss-drawer')[0];
-  drawer && drawer.setAttribute("style", "display: block;");
-
+  supersonic.ui.drawers.open("left").then(function(){
+    console.log("OKITHX")
+  }, function(err){
+    console.log(err)
+  })
 }
 
 </script>
 
-<ss-navigation-bar>
-  <ss-navigation-bar-title>
+<super-navbar>
+  <super-navbar-title>
     Drawer
-  </ss-navigation-bar-title>
-</ss-navigation-bar>
+  </super-navbar-title>
+</super-navbar>
 
 <div class="padding">
 
   <p>Tap a button to open a drawer</p>
 
-  <ss-drawer location="/app/common/sidebar.html" side="left"></ss-drawer>
-
   <button class="button" onclick="openDrawer()">Open left drawer</button>
-
 
 </div>
