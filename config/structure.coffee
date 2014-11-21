@@ -33,6 +33,11 @@ module.exports =
       location: "sensors#geolocation"
     }
 
+    {
+      id: "sensors-compass"
+      location: "sensors#compass"
+    }
+
   ]
 
   # drawers:

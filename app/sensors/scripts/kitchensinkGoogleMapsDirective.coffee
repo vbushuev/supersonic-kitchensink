@@ -17,6 +17,7 @@ angular
         zoom: 14
         mapTypeId: google.maps.MapTypeId.ROADMAP
         disableDefaultUI: true
+        draggable: false
 
       # Create map marker
       demoAccuracyCircle = new google.maps.Circle

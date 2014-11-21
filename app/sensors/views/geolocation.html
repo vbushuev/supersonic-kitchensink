@@ -9,10 +9,10 @@
   <kitchensink-google-maps position="position"></kitchensink-google-maps>
 
   <div class="padding">
-    <div class="geolocation-loading" ng-show="isWatchingPosition || isGettingPosition">
+    <div class="loading-message" ng-show="isWatchingPosition || isGettingPosition">
       <img src="/icons/loading.svg" height="26" alt=""> {{isWatchingPosition? "Continuously watching position..." : "Getting position..."}}
     </div>
-    <div class="geolocation-loading" ng-hide="isWatchingPosition || isGettingPosition">
+    <div class="loading-message" ng-hide="isWatchingPosition || isGettingPosition">
       Ready!
     </div>
 
