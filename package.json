@@ -1,12 +1,9 @@
 {
-  "name": "supersonic-kitchensink",
+  "name": "kitchensink",
   "version": "0.0.0",
   "private": true,
   "dependencies": {},
   "devDependencies": {
     "grunt-steroids": "git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git#master"
-  },
-  "engines": {
-    "steroids": "3.5.0"
   }
 }
