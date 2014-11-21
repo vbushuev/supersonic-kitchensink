@@ -7,12 +7,12 @@ module.exports =
     {
       title: "Index"
       id: "index"
-      location: "example#getting-started" # Supersonic module#view type navigation
+      location: "kitchensink#index" # Supersonic module#view type navigation
     }
     {
       title: "Settings"
       id: "settings"
-      location: "example#settings"
+      location: "kitchensink#settings"
     }
     {
       title: "Internet"
@@ -22,27 +22,27 @@ module.exports =
   ]
 
   # rootView:
-  #   location: "example#getting-started"
+  #   location: "kitchensink#getting-started"
 
   preloads: [
+
+    # Sensors
+
     {
-      id: "learn-more"
-      location: "example#learn-more"
+      id: "sensors-geolocation"
+      location: "sensors#geolocation"
     }
-    {
-      id: "using-the-scanner"
-      location: "example#using-the-scanner"
-    }
+
   ]
 
   # drawers:
   #   left:
   #     id: "leftDrawer"
-  #     location: "example#drawer"
+  #     location: "kitchensink#drawer"
   #     showOnAppLoad: false
   #   options:
   #     animation: "swingingDoor"
   #
   # initialView:
   #   id: "initialView"
-  #   location: "example#initial-view"
+  #   location: "kitchensink#initial-view"

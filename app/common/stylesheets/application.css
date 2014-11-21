@@ -3,3 +3,43 @@
   text-align: center;
   font-weight: 600;
 }
+
+/*********************************
+ * Geolocation
+ ********************************/
+
+.google-maps-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+}
+
+.google-maps-container > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.geolocation-loading {
+  text-align: center;
+  line-height: 26px;
+  height: 26px;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+.geolocation-loading img {
+  height: 26px;
+  vertical-align: top;
+}
+
+.geolocation-table tr td:first-child {
+  padding-right: 10px;
+  text-align: right;
+  border-right: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.geolocation-table tr td:last-child {
+  padding-left: 10px;
+}
