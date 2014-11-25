@@ -4,6 +4,6 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "grunt-steroids": "git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git#master"
+    "grunt-steroids": "AppGyver/grunt-steroids#next"
   }
 }
