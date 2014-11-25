@@ -47,3 +47,7 @@ angular
     supersonic.ui.views.current.whenVisible ->
       $scope.getPosition() unless $scope.isWatchingPosition
 
+    # Let's get initial location on when view is created
+    # This is just to make the map targeted to current location before the view is opened
+    $scope.getPosition() unless $scope.isWatchingPosition
+

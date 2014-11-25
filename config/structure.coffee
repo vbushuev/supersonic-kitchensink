@@ -26,6 +26,18 @@ module.exports =
 
   preloads: [
 
+    # Navigation & transitions
+
+    {
+      id: "navigation-layerPush"
+      location: "navigation#layerPush"
+    }
+
+    {
+      id: "navigation-modalWindow"
+      location: "navigation#modalWindow"
+    }
+
     # Sensors
 
     {
@@ -38,15 +50,27 @@ module.exports =
       location: "sensors#compass"
     }
 
+    {
+      id: "sensors-accelerometer"
+      location: "sensors#accelerometer"
+    }
+
+    # Status
+
+    {
+      id: "status-network"
+      location: "status#network"
+    }
+
   ]
 
-  # drawers:
-  #   left:
-  #     id: "leftDrawer"
-  #     location: "kitchensink#drawer"
-  #     showOnAppLoad: false
-  #   options:
-  #     animation: "swingingDoor"
+  drawers:
+    left:
+      id: "leftDrawer"
+      location: "kitchensink#drawer"
+      showOnAppLoad: false
+    options:
+      animation: "swingingDoor"
   #
   # initialView:
   #   id: "initialView"

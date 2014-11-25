@@ -4,7 +4,45 @@
   </super-navbar-title>
 </super-navbar>
 
+<div class="index__welcome-message">
+  <b>Welcome to AppGyver kitchensink app!</b>
+  <br>
+  This app was handcrafted for you, the mobile developer, to explore the possibilities and performance of Steroids and Supersonic.
+</div>
+
 <div class="list">
+
+  <!-- Navigation & transitions -->
+
+  <div class="item item-divider">
+    Navigation &amp; transitions
+  </div>
+
+  <super-navigate view-id="navigation-layerPush" class="item item-icon-left item-icon-right">
+    <i class="icon icon-accessory super-arrow-right-c"></i>
+    Navigate to another view
+    <i class="icon icon-accessory super-chevron-right"></i>
+  </super-navigate>
+
+  <super-modal-show view-id="navigation-modalWindow" class="item item-icon-left item-icon-right">
+    <i class="icon icon-accessory super-ios7-browsers-outline"></i>
+    Open modal
+    <i class="icon icon-accessory super-chevron-right"></i>
+  </super-modal-show>
+
+  <super-navigate view-id="navigation-layerPush" class="item item-icon-left item-icon-right">
+    <i class="icon icon-accessory super-navicon"></i>
+    Open drawer menu
+    <i class="icon icon-accessory super-chevron-right"></i>
+  </super-navigate>
+
+  <super-navigate view-id="navigation-layerPush" class="item item-icon-left item-icon-right">
+    <i class="icon icon-accessory super-arrow-graph-up-right"></i>
+    Transition animations
+    <i class="icon icon-accessory super-chevron-right"></i>
+  </super-navigate>
+
+  <!-- Sensors -->
 
   <div class="item item-divider">
     Sensors
@@ -19,6 +57,24 @@
   <super-navigate view-id="sensors-compass" class="item item-icon-left item-icon-right">
     <i class="icon icon-accessory super-compass"></i>
     Compass
+    <i class="icon icon-accessory super-chevron-right"></i>
+  </super-navigate>
+
+  <super-navigate view-id="sensors-accelerometer" class="item item-icon-left item-icon-right">
+    <i class="icon icon-accessory super-speedometer"></i>
+    Accelerometer
+    <i class="icon icon-accessory super-chevron-right"></i>
+  </super-navigate>
+
+  <!-- Device status -->
+
+  <div class="item item-divider">
+    Device status
+  </div>
+
+  <super-navigate view-id="status-network" class="item item-icon-left item-icon-right">
+    <i class="icon icon-accessory super-wifi"></i>
+    Network
     <i class="icon icon-accessory super-chevron-right"></i>
   </super-navigate>
 
