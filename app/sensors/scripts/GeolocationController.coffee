@@ -1,6 +1,6 @@
 angular
   .module('sensors')
-  .controller 'GeolocationController', ($scope, supersonic) ->
+  .controller 'GeolocationController', ($scope, supersonic, $timeout) ->
 
     # Initial position at (0,0)
     $scope.position =
@@ -29,8 +29,8 @@ angular
       return if $scope.isWatchingPosition
       $scope.isWatchingPosition = true
       supersonic.device.geolocation.watchPosition({ enableHighAccuracy: true }).onValue (position) ->
-        $scope.$apply () ->
-          $scope.position = position.coords if $scope.isWatchingPosition
+        $timeout () ->
+          $scope.position = position.coords
 
     # Method to stop watching for location
     $scope.stopWatchingPosition = ->
