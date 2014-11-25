@@ -1,5 +1,5 @@
 angular
-  .module('example')
+  .module('kitchensink')
   .controller 'LearnMoreController', ($scope, supersonic) ->
 
     $scope.navbarTitle = "Learn More"

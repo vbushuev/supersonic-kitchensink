@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Tomi/.nvm/v0.10.25/bin/node',
+1 verbose cli   '/Users/Tomi/.nvm/v0.10.25/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/Tomi/Development/github.com/AppGyver/supersonic-kitchensink',
+5 verbose install   [ 'grunt-steroids' ] ]
+6 info preinstall kitchensink@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt-steroids@git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git#master',
+8 verbose cache add   null ]
+9 verbose cache add name=undefined spec="grunt-steroids@git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git#master" args=["grunt-steroids@git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git#master",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: '#master',
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt-steroids@git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git',
+10 verbose parsed url   path: 'grunt-steroids@git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git',
+10 verbose parsed url   href: 'grunt-steroids@git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git#master' }
+11 verbose cache add name="grunt-steroids" spec="git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git#master" args=["grunt-steroids","git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git#master"]
+12 verbose parsed url { protocol: 'git+https:',
+12 verbose parsed url   slashes: true,
+12 verbose parsed url   auth: 'jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1',
+12 verbose parsed url   host: 'github.com',
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: 'github.com',
+12 verbose parsed url   hash: '#master',
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '/appgyver/grunt-devroids.git',
+12 verbose parsed url   path: '/appgyver/grunt-devroids.git',
+12 verbose parsed url   href: 'git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git#master' }
+13 silly lockFile 0bd1597a-pgyver-grunt-devroids-git-master git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git#master
+14 verbose lock git+https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git#master /Users/Tomi/.npm/0bd1597a-pgyver-grunt-devroids-git-master.lock
+15 verbose addRemoteGit [ 'https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git',
+15 verbose addRemoteGit   'master' ]
+16 verbose git remote.origin.url https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git
+17 error git fetch -a origin (https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git) remote: Invalid username or password.
+17 error git fetch -a origin (https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git) fatal: Authentication failed for 'https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git/'
+18 silly lockFile c4814857--com-appgyver-grunt-devroids-git https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git
+19 error Error: Command failed: remote: Invalid username or password.
+19 error fatal: Authentication failed for 'https://jepjep:e072ec18c4b0a3724637b731e345f2009ffe87f1@github.com/appgyver/grunt-devroids.git/'
+19 error
+19 error     at ChildProcess.exithandler (child_process.js:637:15)
+19 error     at ChildProcess.EventEmitter.emit (events.js:98:17)
+19 error     at maybeClose (child_process.js:743:16)
+19 error     at Socket.<anonymous> (child_process.js:956:11)
+19 error     at Socket.EventEmitter.emit (events.js:95:17)
+19 error     at Pipe.close (net.js:466:12)
+20 error If you need help, you may report this *entire* log,
+20 error including the npm and node versions, at:
+20 error     <http://github.com/isaacs/npm/issues>
+21 error System Darwin 13.3.0
+22 error command "/Users/Tomi/.nvm/v0.10.25/bin/node" "/Users/Tomi/.nvm/v0.10.25/bin/npm" "install"
+23 error cwd /Users/Tomi/Development/github.com/AppGyver/supersonic-kitchensink
+24 error node -v v0.10.25
+25 error npm -v 1.3.24
+26 error code 128
+27 verbose exit [ 1, true ]

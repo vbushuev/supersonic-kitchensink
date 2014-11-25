@@ -38,6 +38,11 @@ module.exports =
       location: "navigation#modalWindow"
     }
 
+    {
+      id: "navigation-transitions"
+      location: "navigation#transitions"
+    }
+
     # Sensors
 
     {
@@ -66,12 +71,12 @@ module.exports =
 
   drawers:
     left:
-      id: "leftDrawer"
-      location: "kitchensink#drawer"
+      id: "drawer-content"
+      location: "drawer#content"
       showOnAppLoad: false
     options:
       animation: "swingingDoor"
-  #
+
   # initialView:
   #   id: "initialView"
   #   location: "kitchensink#initial-view"
