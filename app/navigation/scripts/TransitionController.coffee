@@ -8,7 +8,6 @@ angular
       # Animation options
       options =
         duration: $scope.animationSpeed
-        #curve: transitionName
 
       # Perform the animation
       supersonic.ui.animate(transitionName, options).perform()
