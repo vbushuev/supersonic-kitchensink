@@ -44,6 +44,37 @@
       <i class="icon icon-accessory super-chevron-right"></i>
     </super-navigate>
 
+    <!-- App -->
+
+    <div class="item item-divider">
+      App
+    </div>
+
+    <div class="item item-toggle">
+       Status bar
+       <label class="toggle toggle-royal">
+         <input type="checkbox" ng-model="statusBarEnabled">
+         <div class="track">
+           <div class="handle"></div>
+         </div>
+       </label>
+    </div>
+
+    <div class="item item-toggle">
+       Tabs
+       <label class="toggle toggle-royal">
+         <input type="checkbox" ng-model="tabsEnabled">
+         <div class="track">
+           <div class="handle"></div>
+         </div>
+       </label>
+    </div>
+
+    <div class="item item-icon-right" ng-click="showSplashScreen()">
+      Show splashscreen (1s)
+      <i class="icon icon-accessory super-eye"></i>
+    </div>
+
     <!-- Sensors -->
 
     <div class="item item-divider">
