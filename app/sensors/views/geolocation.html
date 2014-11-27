@@ -31,6 +31,22 @@
         <td>Accuracy</td>
         <td>{{position.accuracy}} m</td>
       </tr>
+      <tr ng-hide="position.altitude == undefined">
+        <td>Altitude</td>
+        <td>{{position.altitude}} m</td>
+      </tr>
+      <tr ng-hide="position.altitudeAccuracy == undefined">
+        <td>Alt. accuracy</td>
+        <td>{{position.altitudeAccuracy}} m</td>
+      </tr>
+      <tr ng-hide="position.heading == undefined">
+        <td>Heading</td>
+        <td>{{position.heading}}</td>
+      </tr>
+      <tr ng-hide="position.speed == undefined">
+        <td>Speed</td>
+        <td>{{position.speed}} m/s</td>
+      </tr>
     </table>
 
     <br>
