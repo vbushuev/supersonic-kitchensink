@@ -4,6 +4,6 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "grunt-steroids": "AppGyver/grunt-steroids#next"
+    "grunt-steroids": "1.x"
   }
 }
