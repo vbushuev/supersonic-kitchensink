@@ -7,7 +7,7 @@ angular
     $scope.performAnimation = (transitionName) ->
       # Animation options
       options =
-        duration: $scope.animationSpeed
+        duration: parseFloat($scope.animationSpeed)
 
       # Perform the animation
       supersonic.ui.animate(transitionName, options).perform()
