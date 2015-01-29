@@ -5,9 +5,9 @@ This is the kitchensink app for AppGyver's [Supersonic](http://github.com/appgyv
 
 ## Try it out online
 
-You can play around with the Kitchensink via our embedded web emulator at http://www.appgyver.com/supersonic/kitchensink
+You can also scan a QR code for a cloud-deployed version of the Kitchensink at http://www.appgyver.com/supersonic/kitchensink
 
-On the same page, you can also scan a QR code for a cloud-deployed version of the Kitchensink. All you need to do is download the AppGyver Scanner app for [iOS](https://itunes.apple.com/us/app/appgyver-scanner/id575076515?mt=8) or [Android](https://play.google.com/store/apps/details?id=com.appgyver.freshandroid&hl=en) and use it to scan the code.
+All you need to do is download the AppGyver Scanner app for [iOS](https://itunes.apple.com/us/app/appgyver-scanner/id575076515?mt=8) or [Android](https://play.google.com/store/apps/details?id=com.appgyver.freshandroid&hl=en) and use it to scan the code.
 
 ## Installation
 Install the Steroids² Tooling: http://www.appgyver.com/steroids/getting_started
